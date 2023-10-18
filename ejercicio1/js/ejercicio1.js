@@ -1,12 +1,12 @@
-function separaNumeros(parametros) {
+function separaNumeros() {
 
-    array = [];
+    var array = [];
 
-    for (i = 0;  i < parametros; i++) {
+    for (i = 0;  i < arguments.length; i++) {
 
-        if (!isNaN(parametros)) {
+        if (!isNaN(arguments[i])) {
 
-            array[i] = parametros;
+            array[i] = arguments[i];
         }
 
     }

@@ -30,9 +30,9 @@ numeroAlumnos() {
 
     let cantidad = 0;
 
-    for (i = 0;  i < this._grupo.length; i++) {
+    for (let i = 0;  i < this._grupo.length; i++) {
 
-        cantidad += this._grupo[i].numeroAlumnos;
+        cantidad += this._grupo[i]._numAlum;
 
     }
 

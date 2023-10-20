@@ -4,9 +4,9 @@ function separaNumeros() {
 
     for (i = 0;  i < arguments.length; i++) {
 
-        if (!isNaN(arguments[i])) {
+        if (typeof arguments[i] === "number") {
 
-            array[i] = arguments[i];
+            array.push(arguments[i]);
         }
 
     }
